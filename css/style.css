@@ -1,0 +1,89 @@
+
+/* 전체 선택자 : * */
+* {
+    margin: 0;
+}
+
+
+
+h5{
+     
+    display: none;/*font-size: 0;*/
+    color:#001aff;
+}
+
+p{
+    color:#176c70;
+}
+
+/* selector 
+
+ 태그
+ 클래스
+ 아이디
+
+*/
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+    background-color:beige;
+    text-align: center;
+}
+
+.d-none{
+    display: none;
+}
+#motto{
+    color:#e3df77;
+    text-shadow: #176c70;
+    font-size: 1.5rem;
+   
+}
+#motto:first-letter{
+    color:#e7d06c;
+    text-shadow: #176c70;
+    font-size: 2.5rem;
+}
+
+.top-icon{
+    width:30px; /* 이미지비율대로 세로 조정됨 */
+}
+
+.photo{
+    width:150px; /* 이미지비율대로 세로 조정됨 */
+    margin :2rem 0;
+}
+
+.cover{
+    background-image: url("https://picsum.photos/id/17/1920/200");
+    background-position: center;
+    height: 200px;
+    line-height: 200px; /* 한줄 높이 */
+    
+    color: white;
+}
+.title-words{
+    /*background-color: #021118; */
+    width: 697px;
+    height:160px;
+    background-image: url("../img/mybanner.png");
+    background-position: center;
+    /* background-size: cover; */
+    line-height: 100px;
+    margin: 0 auto;
+    /*padding: 2rem 0; /* 안 여백 기본 2배값(상하) 좌우(0)*/
+   
+}
+
+
+
+/* 그룹 선택자 : ,*/
+
+h2,h3,h4,h5,h6,p {
+    margin: 5rem 0; /* 상대적 값  <> 16px */
+}
+
+
