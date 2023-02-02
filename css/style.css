@@ -68,7 +68,7 @@ body{
 .title-words{
     /*background-color: #021118; */
     width: 697px;
-    height:160px;
+    height:120px;
     background-image: url("../img/mybanner.png");
     background-position: center;
     /* background-size: cover; */
@@ -86,4 +86,16 @@ h2,h3,h4,h5,h6,p {
     margin: 5rem 0; /* 상대적 값  <> 16px */
 }
 
-
+/* page 350 */
+@media screen and (max-width:480px){
+    .title-words {
+        width: 330px;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    /*
+    .title-words {
+        width: 480px; /* 모바일크기에 맞게 조정 
+        background-size: contain;
+        /* background-size: cover; /* 자동으로 알맞게 조정 */
+}
