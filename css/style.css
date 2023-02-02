@@ -89,7 +89,7 @@ h2,h3,h4,h5,h6,p {
 /* page 350 */
 @media screen and (max-width:480px){
     .title-words {
-        width: 330px;
+        width: 68.75%; /* 330px */
         background-size: contain;
         background-repeat: no-repeat;
     }

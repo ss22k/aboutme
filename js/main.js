@@ -1,1 +1,1 @@
-alert('방문환영 ^^\n'+screen.availWidth);
+//alert('방문환영 ^^\n'+screen.availWidth);
